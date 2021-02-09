@@ -1,3 +1,4 @@
+# TODO Multiple turtles in one painting
 import math
 import random
 
@@ -20,8 +21,8 @@ def pythagoras_tuple(ab):
 def random_walk(tur):
     if settings_random:
         # Generiert zufälligen Radius und Anzahl an Bewegungen
-        walks = random.randint(0, ran_max_moves)
-        radius = random.randint(0, ran_max_radius)
+        walks = random.randint(ran_min_moves, ran_max_moves)
+        radius = random.randint(ran_min_radius, ran_max_radius)
         # Generiert einn maximalen bewegungsradius
         max_move_distance = random.randint(ran_min_move_distance, radius)
         print("Hugo darf sich maximal " + str(max_move_distance) + " bewegen!")

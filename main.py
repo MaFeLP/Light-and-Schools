@@ -36,6 +36,8 @@ def plotting_projects():
 
 
 if __name__ == "__main__":
-    plotting_projects()
+    # plotting_projects()
+    # turtle_projects()
+    print("You need to specify an action!")
 
 # input()
